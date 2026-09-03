@@ -1,0 +1,13 @@
+# أدوات محلية — ما بترفع مع الموقع
+.claude/
+.vercel/
+node_modules/
+
+# ملفات نظام
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ملفات مؤقتة
+*.log
+*.tmp

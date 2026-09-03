@@ -11,3 +11,6 @@ desktop.ini
 # ملفات مؤقتة
 *.log
 *.tmp
+
+.vercel
+.env*

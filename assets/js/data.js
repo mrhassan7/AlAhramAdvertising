@@ -130,7 +130,8 @@ window.DATA = {
     { id: 'rolls',    ar: 'رولات شوادر وستكرز',   en: 'Banner & Sticker Rolls' },
     { id: 'albums',   ar: 'ألبومات صور',          en: 'Photo Albums' },
     { id: 'gifts',    ar: 'هدايا دعائية',         en: 'Promotional Gifts' },
-    { id: 'machines', ar: 'طابعات وماكينات',      en: 'Printers & Machines' }
+    { id: 'machines', ar: 'طابعات وماكينات',      en: 'Printers & Machines' },
+    { id: 'usb',      ar: 'فلاشات USB',            en: 'USB Flash Drives' }
   ],
 
   /* ------------------------------------------------------------- المنتجات */
@@ -416,6 +417,18 @@ window.DATA = {
     /* --- هدايا وطباعة على الطلب --- */
     { id: 'gf03', cat: 'gifts', img: '', group: { ar: 'هدايا وطباعة على الطلب', en: 'Custom-Printed Gifts' }, ar: { name: 'تيشيرت مطبوع', desc: 'طباعة فينيل حراري أو DTF على تيشيرتات وهوديز — للفرق والفعاليات.' }, en: { name: 'Printed T-Shirt', desc: 'HTV or DTF printing on tees and hoodies — for teams and events.' } },
     { id: 'gf04', cat: 'gifts', img: '', group: { ar: 'هدايا وطباعة على الطلب', en: 'Custom-Printed Gifts' }, ar: { name: 'أقلام وأجندات مطبوعة', desc: 'هدايا مكتبية بشعارك — أقلام، أجندات، حافظات كروت، ميداليات.' }, en: { name: 'Branded Pens & Notebooks', desc: 'Desk gifts with your logo — pens, notebooks, card holders, keychains.' } },
+
+    /* ---- فلاشات USB (أقسام فرعية حسب الماركة) ---- */
+    /* --- سانديسك --- */
+    { id: 'fl01', cat: 'usb', img: 'usb-sandisk-glide-16',  group: { ar: 'سانديسك', en: 'SanDisk' }, ar: { name: 'SanDisk Cruzer Glide 3.0 — 16GB', desc: 'فلاشة USB 3.0 بموصل منزلق — بدون غطاء ينفصل ويضيع. تخزين سريع وموثوق وآمن، مع برنامج SanDisk SecureAccess لحماية ملفاتك الخاصة بكلمة سر.' }, en: { name: 'SanDisk Cruzer Glide 3.0 USB Flash Drive — 16GB', desc: 'USB 3.0 drive with a sliding connector — no cap to lose. Fast, reliable and secure storage, with SanDisk SecureAccess software to password-protect private files.' } },
+    { id: 'fl02', cat: 'usb', img: 'usb-sandisk-glide-32',  group: { ar: 'سانديسك', en: 'SanDisk' }, ar: { name: 'SanDisk Cruzer Glide 3.0 — 32GB', desc: 'فلاشة USB 3.0 بموصل منزلق — بدون غطاء ينفصل ويضيع. تخزين سريع وموثوق وآمن، مع برنامج SanDisk SecureAccess لحماية ملفاتك الخاصة بكلمة سر.' }, en: { name: 'SanDisk Cruzer Glide 3.0 USB Flash Drive — 32GB', desc: 'USB 3.0 drive with a sliding connector — no cap to lose. Fast, reliable and secure storage, with SanDisk SecureAccess software to password-protect private files.' } },
+    { id: 'fl03', cat: 'usb', img: 'usb-sandisk-ultra-64',  group: { ar: 'سانديسك', en: 'SanDisk' }, ar: { name: 'SanDisk Ultra USB 3.0 — 64GB', desc: 'فلاشة USB 3.0 بسرعة قراءة تصل إلى 130 ميجابايت/ثانية — تنقل فيلماً كاملاً أسرع بكثير من فلاشة USB 2.0. مع برنامج SecureAccess لحماية ملفاتك الخاصة.' }, en: { name: 'SanDisk Ultra USB 3.0 Flash Drive — 64GB', desc: 'USB 3.0 drive with read speeds up to 130 MB/s — transfers a full-length movie faster than a USB 2.0 drive. Includes SecureAccess software to help keep private files private.' } },
+    { id: 'fl04', cat: 'usb', img: 'usb-sandisk-ultra-128', group: { ar: 'سانديسك', en: 'SanDisk' }, ar: { name: 'SanDisk Ultra USB 3.0 — 128GB', desc: 'فلاشة USB 3.0 بسرعة قراءة تصل إلى 130 ميجابايت/ثانية — أسرع حتى 10 مرّات من فلاشات USB 2.0، وتنقل فيلماً كاملاً بأقل من 40 ثانية. مع برنامج SecureAccess.' }, en: { name: 'SanDisk Ultra USB 3.0 Flash Drive — 128GB', desc: 'USB 3.0 drive with read speeds up to 130 MB/s — up to 10× faster than USB 2.0 drives, and transfers a full-length movie in less than 40 seconds. Includes SecureAccess software.' } },
+
+    /* --- ليكسار --- */
+    { id: 'fl05', cat: 'usb', img: 'usb-lexar-v100-32',     group: { ar: 'ليكسار', en: 'Lexar' }, ar: { name: 'Lexar JumpDrive V100 — 32GB', desc: 'فلاشة USB 3.0 بسرعة قراءة تصل إلى 100 ميجابايت/ثانية وجسم منزلق بدون غطاء. مع برنامج تشفير يحمي ملفاتك بكلمة سر.' }, en: { name: 'Lexar JumpDrive V100 USB 3.0 — 32GB', desc: 'USB 3.0 drive with read speeds up to 100 MB/s and a capless sliding body. Securely encrypts your files with password protection.' } },
+    { id: 'fl06', cat: 'usb', img: 'usb-lexar-v100-64',     group: { ar: 'ليكسار', en: 'Lexar' }, ar: { name: 'Lexar JumpDrive V100 — 64GB', desc: 'فلاشة USB 3.0 بسرعة قراءة تصل إلى 100 ميجابايت/ثانية وجسم منزلق بدون غطاء. مع برنامج تشفير يحمي ملفاتك بكلمة سر.' }, en: { name: 'Lexar JumpDrive V100 USB 3.0 — 64GB', desc: 'USB 3.0 drive with read speeds up to 100 MB/s and a capless sliding body. Securely encrypts your files with password protection.' } },
+    { id: 'fl07', cat: 'usb', img: 'usb-lexar-v100-128',    group: { ar: 'ليكسار', en: 'Lexar' }, ar: { name: 'Lexar JumpDrive V100 — 128GB', desc: 'فلاشة USB 3.0 بسرعة قراءة تصل إلى 100 ميجابايت/ثانية وجسم منزلق بدون غطاء. مع برنامج تشفير يحمي ملفاتك بكلمة سر.' }, en: { name: 'Lexar JumpDrive V100 USB 3.0 — 128GB', desc: 'USB 3.0 drive with read speeds up to 100 MB/s and a capless sliding body. Securely encrypts your files with password protection.' } },
   ],
 
   /* ---------------------------------------------------------- تصنيفات الأعمال */
